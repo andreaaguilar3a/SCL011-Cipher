@@ -1,15 +1,70 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <link rel="stylesheet" href="estilosp.css" />
+    
+
+</head>
+
+<body>
+
+    <!--CONTENEDOR DEL CIFRADO-->
+    <section id="content-cipher" class="content">
+        <!--CABECERA-->
+        <header class="content-header">
+            <h1>SAFETEST</h1>
+            <p><i>conserva la privacidad de los resultados de tu examen de VIH</i></p>
+        </header>
+
+
+<!--ENLACES CODIFICADO Y DECODIFICADO-->
+
+        <div id="encode-decode" class="link-code">
+            <a href="#" id="link-encode" class="link_active">Medico</a> <!--pagina para cifrar-->
+            <a href="#" id="link-decode">Paciente</a> <!--pagina para decifrar-->
+        </div>
+
+       <!--CAJA CODIFICADO-->
+        <!--la clave es el offset que corresponde a la fecha en que se realizó el examen -->
+        <div id="content-msg-encode" class="msg-style display_block">
+            <p>Ingrese el resultado del examen que desea codificar:</p>
+            <textarea id="box-msg-encode" class="box-msg-style" placeholder="Ingrese el diagnostico..."></textarea>
+            <div class="content-offset">
+                <label class="label">Ingrese N° de su clave</label>
+                <input type="number" id="n_offset_e" class="n_offset_style">
+            </div>
+            <button id="btn_encode" class="btn-code">Codifica el diagnostico</button>
+            <div id="msg-encode" class="msg-ckeck">
+                <p id="msg-encode-check"></p>
+            </div>
+            <button id="clean-encode">limpiar</button>
+            <!--<button onclick="location.reload();" class="btn_reload">Limpiar</button>-->
+        </div>
+
+        <!--CAJA DECODIFICADO-->
+
+        <div id="content-msg-decode" class="msg-style display_none">
+            <p>Ingrese el resultado de su examen para decodificar:</p>
+            <textarea id="box-msg-decode" class="box-msg-style" placeholder="Ingrese su diagnostico..."></textarea>
+            <div class="content-offset">
+                <label class="label">Ingrese N° de su clave</label>
+                <input type="number" id="n_offset_d" class="n_offset_style">
+            </div>
+            <button id="btn_decode" class="btn-code">Decodifica el diagnostico</button>
+            <div id="msg-decode" class="msg-ckeck">
+                <p id="msg-decode-check"></p>
+            </div>
+            <button onclick="location.reload();" class="btn_reload">Limpiar</button>
+        </div>
+    </section>
+
+    <!--¡¡¡¡¡¡ESTE ARCHIVO NO SE TOCA!!!!!-->
+    <div id="root"></div>
+    <script src="cipherp.js"></script>
+    <script src="indexp.js"></script>
+</body>
+
 </html>
