@@ -16,14 +16,24 @@
         <!--CABECERA-->
         <header class="content-header">
             <h1>SAFETEST</h1>
-            <p><i>conserva la privacidad de los resultados de tu examen de VIH</i></p>
+            <h2><i>Conserva la privacidad de los resultados de tu examen de VIH</i></h2>
+            <br>
+            <p>INSTRUCCIONES</p>
+            <br>
+            <p>1. Seleccione si es médico o paciente</p>
+            <br>
+            <p>2. Médico: ingresa el diagnóstico y cifra el mensaje con botón cifrar</p>
+            <br>
+            <p>3. Paciente: ingrese el mensaje cifrado y descifre con su clave, para leer elresultado de su examen</p>
+            <br>
+            <p>4. La clave la proporciona el médico (según la fecha de su examen y su rut)</p>
         </header>
 
 
 <!--ENLACES CODIFICADO Y DECODIFICADO-->
 
         <div id="encode-decode" class="link-code">
-            <a href="#" id="link-encode" class="link_active">Medico</a> <!--pagina para cifrar-->
+            <a href="#" id="link-encode" class="link_active">Médico</a> <!--pagina para cifrar-->
             <a href="#" id="link-decode">Paciente</a> <!--pagina para decifrar-->
         </div>
 
@@ -36,11 +46,11 @@
                 <label class="label">Ingrese N° de su clave</label>
                 <input type="number" id="n_offset_e" class="n_offset_style">
             </div>
-            <button id="btn_encode" class="btn-code">Codifica el diagnostico</button>
+            <button id="btn_encode" class="btn-code">Codifica el diagnóstico</button>
             <div id="msg-encode" class="msg-ckeck">
                 <p id="msg-encode-check"></p>
             </div>
-            <button id="clean-encode">limpiar</button>
+            <button id="clean-encode" class="btn_reload">limpiar</button>
             <!--<button onclick="location.reload();" class="btn_reload">Limpiar</button>-->
         </div>
 
@@ -53,11 +63,12 @@
                 <label class="label">Ingrese N° de su clave</label>
                 <input type="number" id="n_offset_d" class="n_offset_style">
             </div>
-            <button id="btn_decode" class="btn-code">Decodifica el diagnostico</button>
+            <button id="btn_decode" class="btn-code">Decodifica el diagnóstico</button>
             <div id="msg-decode" class="msg-ckeck">
                 <p id="msg-decode-check"></p>
             </div>
-            <button onclick="location.reload();" class="btn_reload">Limpiar</button>
+            <button id="clean-decode" class="btn_reload">limpiar</button>
+            <!--<button onclick="location.reload();" class="btn_reload">Limpiar</button>-->
         </div>
     </section>
 
@@ -68,3 +79,4 @@
 </body>
 
 </html>
+
