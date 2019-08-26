@@ -1,14 +1,18 @@
-# Cifrado César
+# SAFETEST
 
-C
+Es una app que permite comunicar el resultado de un examen de VIH, dada la confidencialidad de esta información, el diagnóstico será cifrado por un profesional de la salud, el cual al ser recibido por el paciente puede ser decodificado, gracias a una clave (offset del 1 al 39) asignada, según la fecha y el rut del paciente.
+
+
+
+Para el se utiliza el [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) que es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir, cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
+
 Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
-- La letra A se cifra como D.
-- La palabra CASA se cifra como FDVD.
-- Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+-La letra A se cifra como D.
+-La palabra CASA se cifra como FDVD.
+-Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+-Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 ## Resumen del proyecto
 
@@ -23,6 +27,13 @@ Algunas ideas de ejemplo:
 - Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
 - Mensajería secreta para parejas.
 
+#### Definición del producto
+
+En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+
+- Quiénes son los principales usuarios de producto.
+- Cuáles son los objetivos de estos usuarios en relación con tu producto.
+- Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
 ## Consideraciones generales
 
