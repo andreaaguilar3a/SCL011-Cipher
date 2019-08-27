@@ -15,9 +15,10 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
-#Resumen del proyecto
+### Resumen del proyecto
 
-##Intrucciónes de uso
+#### Intrucciónes de uso
+
 ###Para Cifrar:
 1.Seleccionar el tipo de usuario: médico (cifrar) o paciente (decifrar)
 2.Ingresar texto a cifrar (médico cifra el resultado del examen)
@@ -26,7 +27,7 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 5.recibe tu mensaje codificado.
 6.oprime boton "limpiar" para refrescar y volver a utilizar.
 
-###Para Descifrar:
+#### Para Descifrar:
 1.Seleccionar el tipo de usuario: médico (cifrar) o paciente (decifrar)
 2.ingresar texto a descifrar (diagnóstico del examen codificado).
 3.elegir un offset de desplazamiento (el mismo que se utilizo para codificar).
@@ -50,15 +51,15 @@ La aplicación permite resolver necesidades y tener acceso a la información del
 - confidencial: es un derecho resguardado por ley (al igual que lo es hacer el examen voluntariamente), el cifrado asegura que el mensaje sea reervado y llegue solo a su destinatario.
 - accesible: indistintamente de la distancia donde se encuentre el usuario la información llega a destino (no es necesario el desplazamiento físico en zonas aisladas).
 
-##PLANIFICACIÓN y ASPECTOS TÉCNICOS
+## PLANIFICACIÓN y ASPECTOS TÉCNICOS
 para organizar el desarrollo del proyecto se utilizó trello y se diseñaron prototipos pensando en las funciones de cifrado y decifrado, ya que en cada caso sirven paara usuarios distintos (médico y paciente, respectivamente).
 Se trabajo con: HTML, index.js (DOM), css (estilos) y cipher.js (contiene la lógica)
 
 
-##PROTOTIPOS
+## PROTOTIPOS
 
 
-##USUARIOS testeo:
+## USUARIOS testeo:
 Fabián Vergara
 "me pareció una idea muy útil ya que es un resultad muy personal, y eficiente para quienes tenemos horarios de oficina complicados que pueden retrasar ir por un resultado físicamente"
 usabilidad: le resultó díficil comprender las indicaciones sin los cuadros de texto, ya que estas estarían en un home según el prototipo original. No tuvo problemas para copiar el texto cifrado que recibiría por texto.
