@@ -3,7 +3,7 @@
 Es una app que permite comunicar el resultado de un examen de VIH, dada la confidencialidad de esta información, el diagnóstico será cifrado por un profesional de la salud, el cual al ser recibido por el paciente puede ser decodificado, gracias a una clave (offset del 1 al 39) según la fecha y el rut del paciente (por ejemplo: la suma del día del examen y el ultimo digito del id).
 
 
-![alt text](https://raw.githubusercontent.com/andreaaguilar3a/SCL011-Cipher/assets/proyectopantallazo.png) 
+![alt text](https://raw.githubusercontent.com/andreaaguilar3a/andreaaguilar3aSCL011-Cipher/master/proyectopantallazo.png) 
 
 
 Para ello se utiliza el [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) que es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir, cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
