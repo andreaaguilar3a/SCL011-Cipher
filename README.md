@@ -75,3 +75,7 @@ usabilidad: no tuvo problemas para escoger su usuario, pero como habían 2 texar
 Romina de Oliveira
 "Me gustó poder entregar tan rápido un diagnóstico, lo ideal sería poder hacerlo directamente para realizar el acompañamiento cuando el resultado es seropositivo, pero muchos paciente tardan en retirar su resultado y es un poco complejo el tiempo de reacción que se pierde para los casos de mayor riesgo, el sistema tradicional es un poco burocrático"
 usabilidad: uso ambos botones (médico y paciente), indica que le gustaría que se incorporarán datos del profesional o una clave de acceso y donde poder agregar el correo del paciente al que se le enviará la información, tambien un boton de borrar (ya que son muchos resultados los que se enviarán)y que no hubiera que regresar al menú para elegir otra opción, sino que se visualice desde todas las ventanas los botones de selección (médico/paciente).
+
+#### Resultado
+Para los usuarios es complejo tener instrucciones por separado de la ejecucion del programa,por ello, el diseño final incorpora las instrucciones junto al area de cifrado o decifrado. Además se incorporó un boton de limpiar, a su vez se dejó la opción de medico paciente disponible como botones (presentes en todas las vistas con block y none, displey style) para dar acceso al cifrado/y decifrado.
+hay que probar nuevamente para evaluar si las mejores tuvieron un impacto positivo.
